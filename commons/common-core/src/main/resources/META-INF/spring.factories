@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.xiaogj.x3.common.config.BannerInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.common.feign.fallback.UserServiceFallbackFactory,\
+com.xiaogj.x3.common.lock.LockAspect

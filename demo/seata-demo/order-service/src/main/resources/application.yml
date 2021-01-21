@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://xzt-test.xiaogj.com:3306/seata?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+seata:
+  application-id: ${spring.application.name}
+  tx-service-group: order-service-group
+  config:
+    type: nacos
+    nacos:
+      serverAddr: 192.168.0.116:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 192.168.0.116:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos

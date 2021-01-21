@@ -1,0 +1,8 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.xiaogj.x3.log.config.TtlMDCAdapterInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.log.config.LogAutoConfigure,\
+com.xiaogj.x3.log.service.impl.LoggerAuditServiceImpl,\
+com.xiaogj.x3.log.service.impl.DbAuditServiceImpl,\
+com.xiaogj.x3.log.aspect.AuditLogAspect

@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.oauth2.common.config.SecurityPropertiesConfig,\
+com.xiaogj.x3.oauth2.common.store.AuthDbTokenStore,\
+com.xiaogj.x3.oauth2.common.store.AuthRedisTokenStore,\
+com.xiaogj.x3.oauth2.common.store.AuthJwtTokenStore,\
+com.xiaogj.x3.oauth2.common.store.ResJwtTokenStore

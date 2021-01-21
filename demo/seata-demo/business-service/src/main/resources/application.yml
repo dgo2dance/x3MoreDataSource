@@ -1,0 +1,18 @@
+seata:
+  application-id: ${spring.application.name}
+  tx-service-group: business-service-group
+  config:
+    type: nacos
+    nacos:
+      serverAddr: 192.168.0.116:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 192.168.0.116:8848
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos

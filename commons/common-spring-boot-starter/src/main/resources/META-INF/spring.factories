@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.common.filter.TenantFilter,\
+com.xiaogj.x3.common.filter.TraceFilter

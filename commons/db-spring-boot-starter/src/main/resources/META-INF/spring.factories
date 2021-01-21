@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.db.config.TenantAutoConfigure,\
+com.xiaogj.x3.db.config.MybatisPlusAutoConfigure

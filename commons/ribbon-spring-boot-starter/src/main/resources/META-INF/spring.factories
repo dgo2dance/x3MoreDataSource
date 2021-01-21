@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.xiaogj.x3.common.ribbon.RibbonAutoConfigure,\
+com.xiaogj.x3.common.ribbon.FeignAutoConfigure,\
+com.xiaogj.x3.common.ribbon.RestTemplateAutoConfigure,\
+com.xiaogj.x3.common.ribbon.filter.LbIsolationFilter,\
+com.xiaogj.x3.common.ribbon.LbIsolationAutoConfigure
